@@ -40,17 +40,17 @@ For a manual installation, download this repository and copy the entire `skills/
 
 ### Connect Craft
 
-To publish directly, connect Craft to your AI agent through a Craft connector or MCP/API integration. You can also request a Markdown file without connecting Craft.
+To publish directly, follow [Craft’s official MCP setup guide](https://www.craft.do/imagine/guide/mcp) to add the Craft MCP server to your AI app and authorize access to your Craft space. You can also request a Markdown file without connecting Craft.
 
 ## Use it
 
-Provide your source text, file, or accessible link, then say what you want covered and where to save it. For example:
+Paste your text into a chat with the skill installed:
 
-> Use techienotes-craft to turn the first chapter of this book into hierarchical notes and publish them in Craft.
+```text
+Make /techienotes-craft of this text: <insert text>
+```
 
-Or:
-
-> Use techienotes-craft to organize this transcript into notes. Return a Markdown file.
+Replace `<insert text>` with the material you want turned into notes. Add “Publish in Craft” or “Return a Markdown file” to choose where the notes go.
 
 ## Contribute
 
