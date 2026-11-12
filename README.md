@@ -1,6 +1,6 @@
 # 📝 TechieNotes
 
-**Concise, complete study notes for Craft, powered by the TechieNotes-Craft agent skill.**
+**Concise, complete study notes for Craft—easily adapted for Notion, Obsidian, and other note-taking apps.**
 
 TechieNotes-Craft turns supplied books, articles, transcripts, lessons, and other source material into structured notes for learning and review. It produces Craft-ready Markdown or, when requested and connected, publishes one flat Craft document with every section inline.
 
@@ -14,6 +14,12 @@ TechieNotes-Craft turns supplied books, articles, transcripts, lessons, and othe
 - Verifies published Craft content through MCP or API and reports anything the interface cannot verify.
 
 “Flat” means one document without generated child pages or page cards. Headings and indentation preserve the content hierarchy.
+
+## Adapting it to other note-taking apps
+
+The included skill works with **Craft**, but it can be easily retrofitted for **Notion**, **Obsidian**, or another note-taking app. Its core rules for synthesis, source coverage, exact code preservation, and review can stay the same; adapt the formatting and delivery instructions to your chosen app.
+
+For example, a Notion adaptation can map the notes to native blocks and toggles through a Notion connector or API. An Obsidian adaptation can save Markdown files in a vault and use supported heading and folding conventions. Update the Craft-specific publication and verification steps to match the destination. These are adaptation paths; the included skill currently targets Craft.
 
 ## Repository contents
 
