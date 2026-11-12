@@ -4,6 +4,8 @@
 
 **Turn books, articles, transcripts, lessons, and other source material into clear, hierarchical notes.**
 
+✨ **Vibe coded:** Built with AI assistance.
+
 TechieNotes is an AI skill that reads your material, infers its topics and categories, and breaks it down into **headings, subheadings, and concise bullets**. The AI works out which ideas belong together and how they relate, so you don’t have to provide an outline first.
 
 It adds visual structure to make the notes easier to scan and review:
