@@ -4,6 +4,10 @@
 
 TechieNotes-Craft turns supplied books, articles, transcripts, lessons, and other source material into structured notes for learning and review. It produces Craft-ready Markdown or, when requested and connected, publishes one flat Craft document with every section inline.
 
+## Demo
+
+![TechieNotes demonstration in Craft](TechieNotes-demo.gif)
+
 ## What the skill does
 
 - Preserves substantive ideas, definitions, relationships, conditions, exceptions, and decisions while removing repetition and filler.
@@ -64,3 +68,4 @@ Long-source processing requires fresh contexts and independent review. When the 
 ## Skill source
 
 The skill directory is copied unchanged from the **TechieNotes-Craft plugin, version 1.1.0**. The main instructions and both references should be kept together when distributing or updating it.
+
