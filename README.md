@@ -1,71 +1,64 @@
 # 📝 TechieNotes
 
-**Concise, complete study notes for Craft—easily adapted for Notion, Obsidian, and other note-taking apps.**
+**Turn books, articles, transcripts, lessons, and other source material into clear, hierarchical notes.**
 
-TechieNotes-Craft turns supplied books, articles, transcripts, lessons, and other source material into structured notes for learning and review. It produces Craft-ready Markdown or, when requested and connected, publishes one flat Craft document with every section inline.
+TechieNotes is an AI skill that reads your material, infers its topics and categories, and breaks it down into **headings, subheadings, and concise bullets**. The AI works out which ideas belong together and how they relate, so you don’t have to provide an outline first.
+
+It adds visual structure to make the notes easier to scan and review:
+
+- **Numbered headings** show the hierarchy: `1.`, `1.1.`, `1.1.1.`, and so on.
+- **Emojis at the beginning of each heading and text block** signal the topic or purpose.
+- **Bold keywords and key phrases** make important terms stand out.
+- **Collapsible headings** let you expand the detail you want to read.
+
+The skill condenses repetition while preserving the source’s meaning, important details, examples, and qualifications. Code and commands stay unchanged.
 
 ## Demo
 
 ![TechieNotes demonstration in Craft](TechieNotes-demo.gif)
 
-## What the skill does
+## Works with Craft—and can be adapted
 
-- Preserves substantive ideas, definitions, relationships, conditions, exceptions, and decisions while removing repetition and filler.
-- Keeps source code, commands, configuration, and inline code verbatim.
-- Retains links, instructional images, quiz content, and applicable attribution or license notices; converts tables into labeled lists.
-- Organizes notes with numbered toggle headings, meaningful emojis, bold key terms, and consistent indentation.
-- Handles long sources through balanced chunks, fresh-context drafting, independent review, and coverage checks.
-- Verifies published Craft content through MCP or API and reports anything the interface cannot verify.
+This version creates notes in **Craft**, with the entire hierarchy inside one document. Headings, subheadings, and indentation organize the content without creating separate subpages.
 
-“Flat” means one document without generated child pages or page cards. Headings and indentation preserve the content hierarchy.
+It can also be easily retrofitted for **Notion, Obsidian, and other note-taking apps**. Keep the rules for organizing and condensing the material, then adapt the formatting and publishing instructions to the destination—for example, Notion blocks or Markdown files in an Obsidian vault.
 
-## Adapting it to other note-taking apps
+## Install
 
-The included skill works with **Craft**, but it can be easily retrofitted for **Notion**, **Obsidian**, or another note-taking app. Its core rules for synthesis, source coverage, exact code preservation, and review can stay the same; adapt the formatting and delivery instructions to your chosen app.
+### In Codex
 
-For example, a Notion adaptation can map the notes to native blocks and toggles through a Notion connector or API. An Obsidian adaptation can save Markdown files in a vault and use supported heading and folding conventions. Update the Craft-specific publication and verification steps to match the destination. These are adaptation paths; the included skill currently targets Craft.
-
-## Repository contents
+Ask Codex to install the skill by pasting this prompt into a chat:
 
 ```text
-skills/
-└── techienotes-craft/
-    ├── SKILL.md
-    ├── agents/
-    │   └── openai.yaml
-    └── references/
-        ├── craft-delivery.md
-        └── long-source-workflow.md
+Use skill-installer to install the skill from:
+https://github.com/Techienaut/TechieNotes/tree/main/skills/techienotes-craft
 ```
 
-- [SKILL.md](skills/techienotes-craft/SKILL.md): workflow, synthesis rules, protected content, and note formatting.
-- [Craft delivery](skills/techienotes-craft/references/craft-delivery.md): native blocks, publication, recovery, and readback verification.
-- [Long-source workflow](skills/techienotes-craft/references/long-source-workflow.md): chunk ownership, independent reviews, and assembly.
-- [Display metadata](skills/techienotes-craft/agents/openai.yaml): skill name and short description for compatible hosts.
+Once installed, it should be available automatically. If it doesn’t appear, restart Codex. See the [official skill installation guide](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use).
 
-## Use the skill
+For a manual installation, download this repository and copy the entire `skills/techienotes-craft` folder into `~/.agents/skills/`. Keep `SKILL.md`, `agents/`, and `references/` together. Other compatible agents may use a different skills folder.
 
-1. Clone or download this repository.
-2. Install the complete `skills/techienotes-craft` directory using your agent host’s skill installation mechanism. Keep its `agents` and `references` directories alongside `SKILL.md`.
-3. Invoke `techienotes-craft` and supply the source material, the exact sections or page ranges to cover, and the desired delivery format.
+### Connect Craft
 
-Example requests:
+To publish directly, connect Craft to your AI agent through a Craft connector or MCP/API integration. You can also request a Markdown file without connecting Craft.
 
-> Use techienotes-craft to turn the attached lesson into Craft-ready Markdown. Cover the entire lesson and preserve every code example.
+## Use it
 
-> Use techienotes-craft to create notes from chapters 1–3 of this book and publish them as one flat Craft document.
+Provide your source text, file, or accessible link, then say what you want covered and where to save it. For example:
 
-> Use techienotes-craft to summarize this meeting transcript, preserving decisions, action owners, deadlines, and unresolved questions.
+> Use techienotes-craft to turn the first chapter of this book into hierarchical notes and publish them in Craft.
 
-## Requirements and delivery
+Or:
 
-The skill is an instruction package for a compatible AI agent, not a standalone application. The agent needs access to the requested source material. Craft publication additionally requires an authenticated Craft MCP or API connection with the necessary access; the skill uses no Craft UI automation.
+> Use techienotes-craft to organize this transcript into notes. Return a Markdown file.
 
-Markdown delivery does not require Craft access. Craft toggle syntax may display differently in other Markdown viewers. Publication checks include content, ordering, indentation, code, and media. A toggle’s presence does not prove that it is collapsed: collapse state is reported as unverified when the connected interface cannot inspect it.
+## Contribute
 
-Long-source processing requires fresh contexts and independent review. When the host cannot provide them, the skill calls for resumable handoff artifacts and an explicit account of the unmet checks.
+Contributions are welcome, including clearer instructions, better categorization and formatting, bug fixes, sample notes, and adaptations for other note-taking apps.
 
-## Skill source
+- **Report a problem or suggest an idea:** [Open an issue](https://github.com/Techienaut/TechieNotes/issues). Include a short source example, the result you got, and what you expected.
+- **Improve the skill:** Fork the repository, make your changes on a branch, and [open a pull request](https://github.com/Techienaut/TechieNotes/pulls).
+- **Show the improvement:** Try your change on a representative source and include before-and-after notes or screenshots in your pull request.
+- **Add support for another app:** Explain the required connection or setup and show how headings, indentation, emojis, and bold text are preserved.
 
-The skill directory is copied unchanged from the **TechieNotes-Craft plugin, version 1.1.0**. The main instructions and both references should be kept together when distributing or updating it.
-
+The main instructions live in [SKILL.md](skills/techienotes-craft/SKILL.md). Supporting workflows cover [Craft publishing](skills/techienotes-craft/references/craft-delivery.md) and [long sources](skills/techienotes-craft/references/long-source-workflow.md).
