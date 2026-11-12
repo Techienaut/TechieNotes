@@ -62,3 +62,13 @@ Contributions are welcome, including clearer instructions, better categorization
 - **Add support for another app:** Explain the required connection or setup and show how headings, indentation, emojis, and bold text are preserved.
 
 The main instructions live in [SKILL.md](skills/techienotes-craft/SKILL.md). Supporting workflows cover [Craft publishing](skills/techienotes-craft/references/craft-delivery.md) and [long sources](skills/techienotes-craft/references/long-source-workflow.md).
+
+## License
+
+Copyright (c) 2026 Techienaut.
+
+TechieNotes is licensed under the **GNU General Public License v3.0 only (GPL-3.0-only)**. You may use, modify, and redistribute it under the terms in [LICENSE](LICENSE). Distributed modified versions must remain under the GPL.
+
+TechieNotes is provided **without any warranty**, including implied warranties of merchantability or fitness for a particular purpose. The license limits the liability of copyright holders and contributors to the extent permitted by applicable law; see sections 15–17 of [LICENSE](LICENSE).
+
+Unless otherwise noted, contributions are provided under the same license.
