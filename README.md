@@ -1,3 +1,11 @@
+> <a href="https://buymeacoffee.com/techienaut"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" width="145" height="40"></a>
+>
+> 💵 Hey guys! 👋 I’m a techie and aspiring programmer/prompt engineer with ADHD and bipolar I. I’m currently unemployed and building open-source tools for education and personal productivity, like Waestro and TechieNotes.
+>
+> My housing program covers my apartment, so I only need help with my ChatGPT subscription, internet, and basic toiletries (that’s literally all I need to stay afloat lol—I’m very cheap).
+>
+> ☕ Click the **Buy Me a Coffee badge** to support—even a small donation helps keep these projects going! Thanks for the support 💛
+
 # 📝 TechieNotes
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
