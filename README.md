@@ -1,86 +1,85 @@
-> <a href="https://buymeacoffee.com/techienaut"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" width="145" height="40"></a>
->
-> 💵 Hey guys! 👋 I’m a techie and aspiring programmer/prompt engineer with ADHD and bipolar I. I’m currently unemployed and building open-source tools for education and personal productivity, like Waestro and TechieNotes.
->
-> My housing program covers my apartment, so I only need help with my ChatGPT subscription, internet, and basic toiletries (that’s literally all I need to stay afloat lol—I’m very cheap).
->
-> ☕ Click the **Buy Me a Coffee badge** to support—even a small donation helps keep these projects going! Thanks for the support 💛
+# 💛 1. Support the projects
 
-# 📝 TechieNotes
+- ☕ **Buy Me a Coffee**:
+<a href="https://buymeacoffee.com/techienaut"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" width="145" height="40"></a>
+- 🧑‍💻 I’m a **techie** and aspiring **programmer/prompt engineer** with **ADHD** and **bipolar I**.
+- 🛠️ I’m currently **unemployed** and building **open-source tools** for **education** and **personal productivity**, including **Waestro** and **TechieNotes**.
+- 🏠 My **housing program** covers my apartment; I only need help with my **ChatGPT subscription**, **internet**, and **basic toiletries**.
+- ☕ Click the **Buy Me a Coffee badge** to support—even a **small donation** helps keep these projects going.
 
+# 📝 2. TechieNotes
+
+- ⚖️ **License badge**:
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
+- 📚 **TechieNotes** turns **books**, **articles**, **transcripts**, **lessons**, and other **source material** into **clear, hierarchical notes**.
+- ✨ **Vibe coded:** Built with **AI assistance**.
+- 🧠 The **AI skill** reads your material, infers its **topics and categories**, and creates **headings**, **subheadings**, and **concise bullets**.
+- 🗂️ The **AI** groups related ideas and identifies their **relationships**, so you don’t need to provide an **outline** first.
+- 🔢 **Numbered headings** show the **hierarchy**: `1.`, `1.1.`, `1.1.1.`, and so on.
+- 🏷️ **Emojis** at the beginning of each **heading** and **text block** signal the **topic** or **purpose**.
+- 🔎 **Bold keywords and key phrases** make important terms stand out for **scanning and review**.
+- 🪗 **Collapsible headings** let you expand the detail you want to read.
+- 🗜️ Condenses **repetition** while preserving the source’s **meaning**, **important details**, **examples**, and **qualifications**.
+- 💻 **Code** and **commands** stay **unchanged**.
 
-**Turn books, articles, transcripts, lessons, and other source material into clear, hierarchical notes.**
+# 🎬 3. Demo
 
-✨ **Vibe coded:** Built with AI assistance.
-
-TechieNotes is an AI skill that reads your material, infers its topics and categories, and breaks it down into **headings, subheadings, and concise bullets**. The AI works out which ideas belong together and how they relate, so you don’t have to provide an outline first.
-
-It adds visual structure to make the notes easier to scan and review:
-
-- **Numbered headings** show the hierarchy: `1.`, `1.1.`, `1.1.1.`, and so on.
-- **Emojis at the beginning of each heading and text block** signal the topic or purpose.
-- **Bold keywords and key phrases** make important terms stand out.
-- **Collapsible headings** let you expand the detail you want to read.
-
-The skill condenses repetition while preserving the source’s meaning, important details, examples, and qualifications. Code and commands stay unchanged.
-
-## Demo
-
+- 🎬 **TechieNotes demonstration in Craft**:
 ![TechieNotes demonstration in Craft](TechieNotes-demo.gif)
 
-## Works with Craft—and can be adapted
+# 📒 4. Works with Craft—and can be adapted
 
-This version creates notes in **Craft**, with the entire hierarchy inside one document. Headings, subheadings, and indentation organize the content without creating separate subpages.
+- 📒 This version creates notes in **Craft**, with the entire **hierarchy** inside **one document**.
+- 🗂️ **Headings**, **subheadings**, and **indentation** organize the content without creating **separate subpages**.
+- 🔄 It can be easily adapted for **Notion**, **Obsidian**, and other **note-taking apps**.
+- 🧩 Keep the rules for **organizing** and **condensing** the material, then adapt the **formatting** and **publishing instructions** to the destination.
+  - 📒 Examples: **Notion blocks** or **Markdown files** in an **Obsidian vault**.
 
-It can also be easily retrofitted for **Notion, Obsidian, and other note-taking apps**. Keep the rules for organizing and condensing the material, then adapt the formatting and publishing instructions to the destination—for example, Notion blocks or Markdown files in an Obsidian vault.
+# 📦 5. Install
 
-## Install
+## ⌨️ 5.1. In Codex
 
-### In Codex
-
-Ask Codex to install the skill by pasting this prompt into a chat:
-
+- ⌨️ Ask **Codex** to install the skill by pasting this **prompt** into a chat:
 ```text
 Use skill-installer to install the skill from:
 https://github.com/Techienaut/TechieNotes/tree/main/skills/techienotes-craft
 ```
+- ✅ Once installed, the skill should be **available automatically**.
+- 🔃 If it doesn’t appear, **restart Codex**; see the [**official skill installation guide**](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use).
+- 📂 For **manual installation**, download this repository and copy the entire `skills/techienotes-craft` folder into `~/.agents/skills/`.
+- 🧷 Keep `SKILL.md`, `agents/`, and `references/` **together**.
+- 📂 Other **compatible agents** may use a **different skills folder**.
 
-Once installed, it should be available automatically. If it doesn’t appear, restart Codex. See the [official skill installation guide](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use).
+## 🔌 5.2. Connect Craft
 
-For a manual installation, download this repository and copy the entire `skills/techienotes-craft` folder into `~/.agents/skills/`. Keep `SKILL.md`, `agents/`, and `references/` together. Other compatible agents may use a different skills folder.
+- 🔌 To **publish directly**, follow [**Craft’s official MCP setup guide**](https://www.craft.do/imagine/guide/mcp) to add the **Craft MCP server** to your **AI app** and authorize access to your **Craft space**.
+- 📄 You can request a **Markdown file** without connecting **Craft**.
 
-### Connect Craft
+# ▶️ 6. Use it
 
-To publish directly, follow [Craft’s official MCP setup guide](https://www.craft.do/imagine/guide/mcp) to add the Craft MCP server to your AI app and authorize access to your Craft space. You can also request a Markdown file without connecting Craft.
-
-## Use it
-
-Paste your text into a chat with the skill installed:
-
+- ⌨️ Paste your **text** into a chat with the **skill installed**:
 ```text
 Make /techienotes-craft of this text: <insert text>
 ```
+- ✏️ Replace `<insert text>` with the **material** you want turned into notes.
+- 📤 Add **“Publish in Craft”** or **“Return a Markdown file”** to choose where the notes go.
 
-Replace `<insert text>` with the material you want turned into notes. Add “Publish in Craft” or “Return a Markdown file” to choose where the notes go.
+# 🤝 7. Contribute
 
-## Contribute
+- 🤝 **Contributions** are welcome: clearer **instructions**, better **categorization and formatting**, **bug fixes**, **sample notes**, and **adaptations** for other note-taking apps.
+- 🐛 **Report a problem or suggest an idea:** [**Open an issue**](https://github.com/Techienaut/TechieNotes/issues) with a short **source example**, the **result you got**, and **what you expected**.
+- 🌿 **Improve the skill:** **Fork** the repository, make your changes on a **branch**, and [**open a pull request**](https://github.com/Techienaut/TechieNotes/pulls).
+- 🧪 **Show the improvement:** Try your change on a **representative source** and include **before-and-after notes** or **screenshots** in your **pull request**.
+- 🔌 **Add support for another app:** Explain the required **connection or setup** and show how **headings**, **indentation**, **emojis**, and **bold text** are preserved.
+- 📋 The **main instructions** live in [**SKILL.md**](skills/techienotes-craft/SKILL.md).
+- 📚 **Supporting workflows** cover [**Craft publishing**](skills/techienotes-craft/references/craft-delivery.md) and [**long sources**](skills/techienotes-craft/references/long-source-workflow.md).
 
-Contributions are welcome, including clearer instructions, better categorization and formatting, bug fixes, sample notes, and adaptations for other note-taking apps.
+# ⚖️ 8. License
 
-- **Report a problem or suggest an idea:** [Open an issue](https://github.com/Techienaut/TechieNotes/issues). Include a short source example, the result you got, and what you expected.
-- **Improve the skill:** Fork the repository, make your changes on a branch, and [open a pull request](https://github.com/Techienaut/TechieNotes/pulls).
-- **Show the improvement:** Try your change on a representative source and include before-and-after notes or screenshots in your pull request.
-- **Add support for another app:** Explain the required connection or setup and show how headings, indentation, emojis, and bold text are preserved.
-
-The main instructions live in [SKILL.md](skills/techienotes-craft/SKILL.md). Supporting workflows cover [Craft publishing](skills/techienotes-craft/references/craft-delivery.md) and [long sources](skills/techienotes-craft/references/long-source-workflow.md).
-
-## License
-
-Copyright (c) 2026 Techienaut.
-
-TechieNotes is licensed under the **GNU General Public License v3.0 only (GPL-3.0-only)**. You may use, modify, and redistribute it under the terms in [LICENSE](LICENSE). Distributed modified versions must remain under the GPL.
-
-TechieNotes is provided **without any warranty**, including implied warranties of merchantability or fitness for a particular purpose. The license limits the liability of copyright holders and contributors to the extent permitted by applicable law; see sections 15–17 of [LICENSE](LICENSE).
-
-Unless otherwise noted, contributions are provided under the same license.
+- ©️ Copyright (c) 2026 Techienaut.
+- ⚖️ **TechieNotes** is licensed under the **GNU General Public License v3.0 only (GPL-3.0-only)**.
+- 📜 You may **use**, **modify**, and **redistribute** it under the terms in [**LICENSE**](LICENSE).
+- 🔒 Distributed **modified versions** must remain under the **GPL**.
+- ⚠️ **TechieNotes** is provided **without any warranty**, including implied warranties of **merchantability** or **fitness for a particular purpose**.
+- ⚖️ The **license** limits the **liability** of **copyright holders** and **contributors** to the extent permitted by **applicable law**; see **sections 15–17** of [**LICENSE**](LICENSE).
+- 🤝 Unless otherwise noted, **contributions** are provided under the **same license**.
